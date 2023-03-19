@@ -126,7 +126,7 @@ install1
 elif [ "$cmd1" = "Y" ];then
 install1
 else
-
+printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installation aborted.\n"
 printf "\e[0m"
 exit
 fi
